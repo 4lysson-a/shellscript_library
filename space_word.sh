@@ -12,3 +12,6 @@ space() {
 		  	a=$((a+1))
 			done
 }
+
+
+#raw https://github.com/4ly-a/shellscript_library/blob/master/space_word.sh
