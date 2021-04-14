@@ -1,4 +1,4 @@
-espaco() {
+space() {
 		i=$1
 		a=1
 		while true; 
