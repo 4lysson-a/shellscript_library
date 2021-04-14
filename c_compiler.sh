@@ -1,3 +1,6 @@
+del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh
+wget -q ${del}
+
 declare -l NAME=$1 || NAME=$1
 
 src=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/space_word.sh
@@ -30,6 +33,7 @@ read a
 		rm main
 		rm space_word.sh 
 		delete_c_compiler
+		delete
 clear
 
 delete_c_compiler(){
