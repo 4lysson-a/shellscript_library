@@ -29,8 +29,13 @@ read a
 		rm $NAME.o 
 		rm main
 		rm space_word.sh 
-
+		delete_c_compiler
 clear
+
+delete_c_compiler(){
+	rm c_compiler.sh
+}
+
 
 
 # raw https://raw.githubusercontent.com/4ly-a/shellscript_library/master/c_compiler.sh
