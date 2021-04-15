@@ -16,6 +16,7 @@ delete(){
 	delete_space_word
 	delete_c_compiler
 	rm delete_shell.sh
+	clear
 }
 
 
