@@ -12,11 +12,10 @@ delete_webaap_lib(){
 }
 
 delete(){
-	delete_webaap_lib
-	delete_space_word
-	delete_c_compiler
-	rm delete_shell.sh
-	clear
+	delete_webaap_lib || clear
+	delete_space_word || clear
+	delete_c_compiler || clear
+	rm delete_shell.sh || clear
 }
 
 
