@@ -16,3 +16,6 @@ delete(){
 	delete_space_word
 	delete_c_compiler
 }
+
+
+# Raw https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh

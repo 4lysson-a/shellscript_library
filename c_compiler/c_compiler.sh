@@ -1,4 +1,5 @@
 del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh
+
 wget -q ${del}
 
 declare -l NAME=$1 || NAME=$1
