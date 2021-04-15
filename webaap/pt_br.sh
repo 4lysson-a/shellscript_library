@@ -1,8 +1,8 @@
-# del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh
+del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh
 
-# wget -q ${del}
+wget -q ${del}
 
-. ../delete_shell.sh
+. ./../delete_shell.sh
 
 
 verificar_nativefier(){
