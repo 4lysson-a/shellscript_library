@@ -131,11 +131,8 @@ delete_app()
  			sudo rm ${app_name}_icon.svg
  		fi
 
- 	delete 
- 	clear
  	echo ""
  	echo ${app_name} deletado com sucesso
- 	return 0;
 }
 
 home(){

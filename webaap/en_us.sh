@@ -131,11 +131,8 @@ delete_app_en()
  			sudo rm ${app_name}_icon.svg
  		fi
 
-	delete 
- 	clear
  	echo ""
  	echo ${app_name} successfully deleted
- 	return 0;
 }
 
 home_en(){
