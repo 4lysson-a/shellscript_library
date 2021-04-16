@@ -5,11 +5,11 @@ wget -q ${del}
 . ./delete_shell.sh
 
 
-delete_icon_en(){
-	cd ~/Downloads/
+# delete_icon_en(){
+# 	cd ~/Downloads/
 	
-	sudo rm -R .WebappIcon
-}
+# 	sudo rm -R .WebappIcon
+# }
 
 
 verificar_nativefier_en(){
