@@ -103,6 +103,8 @@ create_app_en(){
 
 	echo ""
 	
+    cd ~/Documents/Webaap
+
 	delete_icon_en
 	
 	echo All ready !
