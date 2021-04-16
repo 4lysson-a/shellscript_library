@@ -130,6 +130,9 @@ delete_app_en()
  			sudo rm ${app_name}_icon.jpg
  			sudo rm ${app_name}_icon.svg
  		fi
+	
+	cd ~/.config/
+	sudo rm -R ${app_name}	
 
  	echo ""
  	echo ${app_name} successfully deleted
