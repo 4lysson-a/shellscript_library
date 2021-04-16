@@ -6,14 +6,9 @@ wget -q ${del}
 
 
 delete_icon_en(){
-	cd ~/Downloads/.WebappIcon/
-
- 	if [ 1 ]
- 		then
- 			sudo rm ${app_name}_icon.png
- 			sudo rm ${app_name}_icon.jpg
- 			sudo rm ${app_name}_icon.svg
- 		fi
+	cd ~/Downloads/
+	
+	sudo rm -R .WebappIcon
 }
 
 
