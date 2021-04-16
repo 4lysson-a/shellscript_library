@@ -1,18 +1,3 @@
-del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh
-
-path=~/Downloads/.WebappIcon
-
-wget -P ${path} -q ${del}
-
-. ${path}/delete_shell.sh
-
-delete_icon_en(){
-	cd ${path}
-	
-	sudo rm -R .WebappIcon
-}
-
-
 verificar_nativefier_en(){
 	clear
 	echo Checking nativefier ...
@@ -136,11 +121,15 @@ delete_app_en()
  	cd /usr/share/applications
  	sudo rm ${app_name}.desktop
  	
-	delete_icon_en
-	
-	cd ~/.config/
-	sudo rm -R ${app_name}	
+	cd ~/Downloads/.WebappIcon/
 
+ 	if [ 1 ]
+ 		then
+ 			sudo rm ${app_name}_icon.png
+ 			sudo rm ${app_name}_icon.jpg
+ 			sudo rm ${app_name}_icon.svg
+ 		fi
+	
  	echo ""
  	echo ${app_name} successfully deleted
 }

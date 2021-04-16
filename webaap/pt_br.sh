@@ -1,10 +1,3 @@
-del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh
-
-path=~/Downloads/.WebappIcon
-wget -P ${path} -q ${del}
-
-. ${path}/delete_shell.sh
-
 verificar_nativefier(){
 	clear
 	echo Verificando nativefier ...
