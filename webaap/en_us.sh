@@ -1,15 +1,16 @@
 del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/delete_shell.sh
 
-wget -q ${del}
+path=~/Downloads/.WebappIcon
 
-. ./delete_shell.sh
+wget -P ${path} -q ${del}
 
+. ${path}/delete_shell.sh
 
-# delete_icon_en(){
-# 	cd ~/Downloads/
+delete_icon_en(){
+	cd ${path}
 	
-# 	sudo rm -R .WebappIcon
-# }
+	sudo rm -R .WebappIcon
+}
 
 
 verificar_nativefier_en(){
