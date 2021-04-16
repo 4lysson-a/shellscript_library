@@ -133,7 +133,7 @@ delete_app_en()
  	cd /usr/share/applications
  	sudo rm ${app_name}.desktop
  	
-
+	delete_icon_en
 	
 	cd ~/.config/
 	sudo rm -R ${app_name}	
