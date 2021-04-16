@@ -5,6 +5,18 @@ wget -q ${del}
 . ./delete_shell.sh
 
 
+delete_icon_en(){
+	cd ~/Downloads/.WebappIcon/
+
+ 	if [ 1 ]
+ 		then
+ 			sudo rm ${app_name}_icon.png
+ 			sudo rm ${app_name}_icon.jpg
+ 			sudo rm ${app_name}_icon.svg
+ 		fi
+}
+
+
 verificar_nativefier_en(){
 	clear
 	echo Checking nativefier ...
@@ -95,7 +107,9 @@ create_app_en(){
 	sudo mv ${app_name}.desktop /usr/share/applications
 
 	echo ""
-
+	
+	delete_icon_en
+	
 	echo All ready !
 	echo Your desktop webaapp is installed
 
@@ -108,6 +122,8 @@ create_app_en(){
 	echo ""
 	echo ""
 }
+
+
 
 delete_app_en()
  {
@@ -122,14 +138,7 @@ delete_app_en()
  	cd /usr/share/applications
  	sudo rm ${app_name}.desktop
  	
- 	cd ~/Downloads/.WebappIcon/
 
- 	if [ 1 ]
- 		then
- 			sudo rm ${app_name}_icon.png
- 			sudo rm ${app_name}_icon.jpg
- 			sudo rm ${app_name}_icon.svg
- 		fi
 	
 	cd ~/.config/
 	sudo rm -R ${app_name}	
