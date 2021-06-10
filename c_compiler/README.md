@@ -29,3 +29,5 @@ ccc program_name.c
 ```
 
 it will compile your program, generate an output file, run the program and at the end of the execution delete the output file, all this before you even drink your coffee
+
+clearly it is necessary to have gcc installed for it to work
