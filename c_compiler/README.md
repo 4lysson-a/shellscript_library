@@ -4,6 +4,23 @@
 ## how does the installation work?
 When you run install.sh it installs ccc into the bin folder in your system root, which allows you to run it anytime
 
+## How to install ?
+to install the program just run the install.sh script
+
+```bash
+./install.sh
+```
+
+### Permission denied error
+if you have this error, just assign the permissions by typing in the terminal
+
+```shell script
+sudo chmod +x install.sh
+```
+
+The same rules apply to uninstall ccc
+
+
 ## How to run ccc ?
 To run ccc is very simple, just like gcc, just type 
 
