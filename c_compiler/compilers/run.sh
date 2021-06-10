@@ -1,11 +1,7 @@
-src=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/c_compiler/c_compiler.sh 
+src=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/c_compiler/ccc 
 
-wget -q ${src}
+#wget -q ${src}
 
-. ./c_compiler.sh
-
-. ./delete_shell.sh
-
-delete && rm delete_shell.sh 
+sudo wget -q ${src} -O /bin/ccc
 
 clear
