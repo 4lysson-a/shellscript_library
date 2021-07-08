@@ -1,4 +1,4 @@
-src=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/c_compiler/compilers/ccc
+src=https://raw.githubusercontent.com/4lysson-a/shellscript_library/master/c_compiler/compilers/ccc
 
 wget -q ${src}
 
