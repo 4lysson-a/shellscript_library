@@ -8,5 +8,5 @@ gcc $1 -o main
 echo
 echo "execução finalizda, aperte Enter para fechar"
 read a
-rm main
+rm -R main
 clear
