@@ -1,10 +1,10 @@
-del=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/config/delete_shell.sh
+del=https://raw.githubusercontent.com/4lysson-a/shellscript_library/master/config/delete_shell.sh
 
 wget -q ${del}
 
 declare -l NAME=$1 || NAME=$1
 
-src=https://raw.githubusercontent.com/4ly-a/shellscript_library/master/config/space_word.sh
+src=https://raw.githubusercontent.com/4lysson-a/shellscript_library/master/config/space_word.sh
 
 wget -q ${src}
 
