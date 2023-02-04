@@ -16,3 +16,9 @@ access
 remember to read the documentation
 
 [Webaap docs](https://4lysson-a.github.io/Webaap/)
+
+
+
+# Clone script, fast clone github repo
+
+[Doc](https://github.com/4lysson-a/shellscript_library/tree/master/clone)
