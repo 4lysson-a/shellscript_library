@@ -1,24 +1,11 @@
-# My code library
+# Coisas de shellscript 
 
-# CCC Compiler and c exec
-
-if you want to install 
-`ccc, compiler and c exec`
-access
-
-[CCC compiler repository](https://github.com/4lysson-a/c_compiler/)
+# CCC - Compilador c e executador de programas
+[doc](https://github.com/4lysson-a/c_compiler/)
 
 
-# Webaap create a desktop app from web
+# Webaap - Crie um app desktop de um site da web
+[doc](https://github.com/4lysson-a/Webaap/)
 
-[Webaap](https://github.com/4lysson-a/Webaap/)
-
-remember to read the documentation
-
-[Webaap docs](https://4lysson-a.github.io/Webaap/)
-
-
-
-# Clone script, fast clone github repo
-
+# Clone - Script para clonar facilmente qualquer repo do github
 [Doc](https://github.com/4lysson-a/shellscript_library/tree/master/clone)
